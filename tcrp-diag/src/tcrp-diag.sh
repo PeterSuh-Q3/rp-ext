@@ -389,11 +389,12 @@ synomodel=$(synoinfo unique | cut -d"_" -f3)
 
 let HEAD=1
 
-if [ -n "$(grep tcrpdiag /proc/cmdline)" ]; then
+# always enabled 2022.11.19
+#if [ -n "$(grep tcrpdiag /proc/cmdline)" ]; then
 TCRPDIAG="enabled"
-else 
-TCRPDIAG=""
-fi
+#else 
+#TCRPDIAG=""
+#fi
 
 ### USUALLY SCEMD is the last process run in init, so when scemd is running we are most 
 # probably certain that system has finish init process 
