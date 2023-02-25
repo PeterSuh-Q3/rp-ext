@@ -44,6 +44,7 @@
 "ds920p_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds920p_42218.json",
 "ds920p_42951": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds920p_42218.json",
 "ds920p_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds920p_42218.json",
+"ds923p_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds923p_42218.json",
 "ds2422p_42218": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds2422p_42218.json",
 "ds2422p_42621": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds2422p_42218.json",
 "ds2422p_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds2422p_42218.json",
@@ -59,6 +60,8 @@
 "rs4021xsp_42661": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds3622xsp_42218.json",
 "rs4021xsp_42951": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds3622xsp_42218.json",
 "rs4021xsp_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/ds3622xsp_42218.json",
+"sa6400_42962": "https://raw.githubusercontent.com/pocopico/rp-ext/master/redpillprod/releases/sa6400_42218.json",
+
 
 "endofmodel": "endofurls"
   }

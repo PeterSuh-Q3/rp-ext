@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "vmxnet3-5.10.55plus-epyc.tgz",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/releases/vmxnet3-5.10.55plus-epyc.tgz",
+      "sha256": "830b17cb0cdb033a6c5a492bb64111f470ec5c538b96ecb1c5afc043ca87c73e",
+      "packed": true
+    },
+    {
+      "name": "check-vmxnet3.sh",
+      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/master/vmxnet3/src/check-vmxnet3.sh",
+      "sha256": "ac30bf116182d716706938117d21fddbe011f636c7bbe38d9ba0ac07aebdc49d",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "vmxnet3.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-vmxnet3.sh"
+  }
+
+}
