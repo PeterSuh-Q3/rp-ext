@@ -1,21 +1,21 @@
 {
-"files": [
+  "files": [
     {
-      "name": "eudev",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/eudev.tgz",
-      "sha256": "bbd4a53783c67884a711e4fbc67b5565cf019b0c93c95efcb6887cf8d69f2822",
-      "packed": true
+      "name": "nvme-cache.sh",
+      "url": "https://raw.githubusercontent.com/PeterSuh-Q3/tcrp-addons/master/nvme-cache/src/nvme-cache.sh",
+      "sha256": "c12ae955a12fd6ebe2b9b7370b4382a1f599296ca85a164a7599e0e854db989a",
+      "packed": false
     },
     {
-      "name": "install.sh",
-      "url": "https://raw.githubusercontent.com/pocopico/rp-ext/main/eudev/releases/install.sh",
-      "sha256": "eb205db946b02efc2ada7a3e1a52a1cac6fad91d7bc4ce7c3cd085c92520cb6c",
+      "name": "install-nvme-cache.sh",
+      "url": "https://raw.githubusercontent.com/PeterSuh-Q3/tcrp-addons/master/nvme-cache/src/install-nvme-cache.sh",
+      "sha256": "4025a04cca702689a07d79a3f5b4a67d8460a6c74f9f16677d1870ce4275c938",
       "packed": false
     }
-
   ],
+
   "scripts": {
-    "on_boot": "install.sh"
+    "on_boot": "install-nvme-cache.sh",
+    "on_os_load": "install-nvme-cache.sh"
   }
 }
-
